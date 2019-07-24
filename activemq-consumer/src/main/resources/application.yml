@@ -1,0 +1,11 @@
+spring:
+  activemq:
+    broker-url: tcp://0.0.0.0:61616
+    in-memory: true
+    password: admin
+    user: admin
+    pool:
+      enabled: false
+  jms:
+    #是否开启Topic发布订阅模式
+    pub-sub-domain: true
